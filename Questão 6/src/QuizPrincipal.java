@@ -17,11 +17,13 @@ public class QuizPrincipal {
 				break;
 			case 1:
 				perguntas[i].setTexto("Quais o menor e o maior pais do mundo?");
-				perguntas[i].populaRespostas("1 - Vaticano e Russia", "2 - Nauru e China", "3 - Monaco e Canada", "4 - Malta e Estados Unidos", 1);
+				perguntas[i].populaRespostas("1 - Vaticano e Russia", "2 - Nauru e China", "3 - Monaco e Canada",
+						"4 - Malta e Estados Unidos", 1);
 				break;
 			case 2:
 				perguntas[i].setTexto("Qual o livro mais vendido no mundo a seguir a Biblia?");
-				perguntas[i].populaRespostas("1 - O Senhor dos Aneis", "2 - Dom Quixote", "3 - O Pequeno Principe", "4 - Um Conto de Duas Cidades", 2);
+				perguntas[i].populaRespostas("1 - O Senhor dos Aneis", "2 - Dom Quixote", "3 - O Pequeno Principe",
+						"4 - Um Conto de Duas Cidades", 2);
 				break;
 			case 3:
 				perguntas[i].setTexto("Quantas casas decimais tem o numero pi?");
